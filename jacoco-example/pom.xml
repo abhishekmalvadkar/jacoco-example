@@ -68,7 +68,8 @@
 					<excludes>
 						<!-- Telling to jacoco that don't include Application.class file in total
 						  coverage count, so we don't need to write point less unit test for Application class, and we will
-						  get clean code coverage -->
+						  get clean code coverage.
+						Check different cases for exclusion here : https://www.baeldung.com/jacoco-report-exclude -->
 						<exclude>com/example/Application.class</exclude>
 					</excludes>
 				</configuration>
