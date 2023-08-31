@@ -1,7 +1,6 @@
 package com.example.examples;
 
 import com.example.dto.Citizen;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
