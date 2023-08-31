@@ -66,6 +66,9 @@
 				<version>${jacoco.version}</version>
 				<configuration>
 					<excludes>
+						<!-- Telling jacoco that don't include Application.class file in total
+						  coverage count, so we don't need to write point less unit test and we will
+						  get clean code coverage -->
 						<exclude>com/example/Application.class</exclude>
 					</excludes>
 				</configuration>
